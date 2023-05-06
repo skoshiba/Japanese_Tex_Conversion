@@ -17,7 +17,7 @@ git clone https://github.com/skoshiba/Japanese_Tex_Conversion.git
 ## Usage
 After installing, you need to pass through the path to the executable file
 ```bash
-export PATH=$PATH: skoshiba/tex_format/bin
+export PATH=$PATH: skoshiba/Japanese_Tex_Conversion/bin
 ```
 After that, this command converts sample.tex to output.tex by JTEC. sample.tex is a input file and output.tex is a output file.
 ```bash
