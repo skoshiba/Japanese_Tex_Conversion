@@ -7,3 +7,21 @@ JTEC automatically performs the following functions
 - Converts "。" to "."
 - Converts full-width numbers to half-width numbers
 - Place white space in appropriate positions to make the text easier to readpositions
+
+## Installing
+You can install JTEC from command line.
+```bash
+$ git clone https://github.com/skoshiba/Japanese_Tex_Conversion.git
+```
+
+## Usage
+After installing, you need to pass through the path to the executable file
+```bash
+$ export PATH=$PATH: skoshiba/tex_format/bin
+```
+After that, this command converts sample.tex to output.tex by JTEC. sample.tex is a input file and output.tex is a output file.
+```bash
+$ jtec sample.tex output.tex
+```
+When add `--number-only` option, JTEC only converts full-width numbers to half-width numbers.
+When add `--character-only` option, JTEC only converts "、" to "," and "。" to "." .
