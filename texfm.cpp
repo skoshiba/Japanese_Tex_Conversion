@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
     }
 
     // writing file
-    ofstream writing_file("output.tex");
+    ofstream writing_file(argv[4]);
     if (!writing_file)
     {
         cout << "Could not open file" << endl;
