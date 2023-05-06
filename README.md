@@ -24,4 +24,10 @@ After that, this command converts sample.tex to output.tex by JTEC. sample.tex i
 jtec sample.tex output.tex
 ```
 When add `--number-only` option, JTEC only converts full-width numbers to half-width numbers.
+```bash
+jtec sample.tex output.tex --number-only
+```
 When add `--character-only` option, JTEC only converts "、" to "," and "。" to "." .
+```bash
+jtec sample.tex output.tex --character-only
+```
