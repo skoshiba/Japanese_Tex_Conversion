@@ -1,12 +1,12 @@
 #!/bin/bash
 g++ texfm.cpp
 
-if [ $# -eq 1 ]; then
- ./a.out $1 "1" "1"
+if [ $# -eq 2 ]; then
+ ./a.out $1 "1" "1" $2
 else
-  if [ $2="--number-only" ]; then
-  ./a.out $1 "1" "0"
+  if [ $3="--number-only" ]; then
+  ./a.out $1 "1" "0" $2
   else 
-  ./a.out $1 "0" "1"
+  ./a.out $1 "0" "1" $2
   fi
 fi
